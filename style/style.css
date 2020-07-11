@@ -1,0 +1,29 @@
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+body {
+    background: url(../imagens/wppblackoval.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box-1 {
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    width: 915px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: rgba(41, 39, 39, 0.644);
+
+}
+.box-2 {
+    width: 95%;
+    height: 93%;
+    margin-top: 1.9%;
+    margin-left: 2.4%;
+    border-radius: 12px;
+    background-color: #d6d6f8;
+}
