@@ -9,6 +9,19 @@ body {
     background-attachment: fixed;
 }
 
+.profile {
+    width: 10%;
+    max-height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 8%;
+    left: 30%;
+}
+.profile:hover {
+    border: 2px solid rgba(149, 221, 231, 0.733);
+    transition: border .2s;
+}
+
 .box-1 {
     position: absolute;
     top: 28%;
