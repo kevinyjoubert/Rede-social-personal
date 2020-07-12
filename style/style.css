@@ -1,9 +1,9 @@
 @font-face {
-    src: url(../fonts/OpenSans-Regular.ttf);
-    font-family: 'OpenSans-Regular', sans-serif;
+    src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+    font-family: 'ShadowsIntoLight-Regular';
 }
 * {
-    font-family: 'OpenSans-Regular', sans-serif;
+    font-family: 'ShadowsIntoLight-Regular', sans-serif;
 }
 body, html {
     height: 100vh;
