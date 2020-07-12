@@ -1,12 +1,27 @@
+@font-face {
+    src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+    font-family: 'ShadowsIntoLight-Regular';
+}
+
+* {
+    font-family: 'ShadowsIntoLight-Regular';
+}
 body, html {
     height: 100vh;
     width: 100vw;
     background-color: black;
 }
 body {
-    background: url(../imagens/wppblackoval.jpg) no-repeat center;
+    background: url(../imagens/bck1.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.hidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
 }
 
 .profile {
@@ -14,7 +29,7 @@ body {
     max-height: 100%;
     border-radius: 50%;
     position: absolute;
-    top: 8%;
+    top: 7%;
     left: 30%;
     box-shadow: 0px 0px 0px 7px rgb(44, 43, 43);
 }
@@ -22,15 +37,45 @@ body {
     border: 3px solid rgba(149, 221, 231, 0.733);
     transition: border .2s;
 }
+.profile-name {
+    position: absolute;
+    color: white;
+    top: 6%;
+    left: 42%;
+    font-size: 2.5em;
+}
+
+.ul-icons {
+    list-style-type: none;
+    position: absolute;
+    top: 16%;
+    left: 40%;
+    font-size: 2.5em;
+}
+.ul-icons li {
+    display: inline-block;
+}
+.ul-icons li:nth-child(2n+1):hover {
+    transform: rotate(5deg);
+}
+.ul-icons li:nth-child(2):hover, .ul-icons li:nth-child(4):hover {
+    transform: rotate(-5deg);
+}
+.ul-icons a {
+    color: rgba(255, 255, 255, 0.747);
+}
+.ul-icons a:hover {
+    color: rgba(255, 255, 255, 1);
+}
 
 .box-1 {
     position: absolute;
     top: 28%;
-    left: 30%;
-    width: 915px;
-    height: 500px;
+    margin: 0 30% 0 30%;
+    width: 40%;
+    height: 43%;
     border-radius: 12px;
-    background-color: rgba(41, 39, 39, 0.644);
+    background-color: rgba(34, 33, 33, 0.774);
 
 }
 .box-2 {
