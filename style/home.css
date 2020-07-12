@@ -1,0 +1,48 @@
+@font-face {
+    src: url(../fonts/Schoolbell-Regular.ttf);
+    font-family: 'Schoolbell-Regular';
+}
+* {
+    font-family: 'Schoolbell-Regular';
+}
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.content-1 {
+    width: 50%;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.description, h1 {
+    /* width: 39%; */
+    text-align: center;
+    margin-top: 3.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h1 {
+    font-size: 2.2em;
+}
+.description {
+    font-size: 1.1em;
+}
+
+.ul-icons {
+    list-style-type: none;
+}
+.ul-icons li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.ul-icons a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+}
+.ul-icons a:hover {
+    color: rgba(3, 115, 189, 0.904);
+    transition: color .5s;
+}

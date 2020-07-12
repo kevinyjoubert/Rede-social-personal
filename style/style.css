@@ -2,7 +2,6 @@
     src: url(../fonts/ShadowsIntoLight-Regular.ttf);
     font-family: 'ShadowsIntoLight-Regular';
 }
-
 * {
     font-family: 'ShadowsIntoLight-Regular';
 }
@@ -73,9 +72,9 @@ body {
     top: 28%;
     margin: 0 30% 0 30%;
     width: 40%;
-    height: 43%;
+    height: 37%;
     border-radius: 12px;
-    background-color: rgba(34, 33, 33, 0.774);
+    background-color: rgb(17, 17, 17);
 
 }
 .box-2 {
@@ -85,4 +84,13 @@ body {
     margin-left: 2.4%;
     border-radius: 12px;
     background-color: #d6d6f8;
+}
+
+
+
+iframe#tela {
+    position: relative;
+    
+    width: 38vw;
+    height: 40vh;
 }
