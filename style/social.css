@@ -26,5 +26,6 @@ a {
     text-decoration: none;
 }
 a:hover {
-    background-color: rgba(0, 111, 139, .8);
+    background-color: rgba(0, 111, 139, .7);
+    transition: all .8s;
 }
